@@ -18,13 +18,13 @@ public class TestApp {
         app.searchScreen().leavingFrom("Kiev Borispil");
 
         System.out.println("Enter to goingTo airport");
-        app.searchScreen().goingTo("KakMandu");
+        app.searchScreen().goingTo("kathmandu");
 
         System.out.println("Click search result");
         app.searchScreen().clickSearchFlights();
 
         System.out.println("Verify search output");
-        System.out.println("====>>>  Kakmandu found");
+        System.out.println("====>>>  kathmandu found");
     }
 
     private static MobileApp getApp() {
